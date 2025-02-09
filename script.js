@@ -26,6 +26,9 @@ function showLibrary() {
   loadLibrary();
 }
 
+//
+//Search Functions
+//
 
 function searchBooks() {
   const query = document.getElementById('searchInput').value.trim();
@@ -104,6 +107,10 @@ function addBookToLibrary(bookData) {
   library.push(bookData);
   localStorage.setItem(libraryKey, JSON.stringify(library));
 }
+
+//
+//Library Functions
+//
 
 function loadLibrary() {
   let library = JSON.parse(localStorage.getItem(libraryKey)) || [];
