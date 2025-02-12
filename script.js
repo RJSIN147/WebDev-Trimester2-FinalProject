@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyB7TPy6qAycFg7KD4anxjJMxtdG15tMNaA';
+const apiKey = '';
 const libraryKey = 'library';
 
 document.addEventListener('DOMContentLoaded', () => {
